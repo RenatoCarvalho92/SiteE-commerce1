@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    position: absolute;
+   
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    align-items:center;
+    justify-content:space-evenly;
+}
+#procurarImgEBtt{
+    position: relative;
+    left:-10%
+}
+header div input{
+    border-radius: 15px 0px 0px 15px;
+    border-color: gray;
+    
+}
+header div button{
+    border-radius: 0px 15px 15px 0px;
+    border-color: gray;
+}
+
+#search{
+    position: relative;
+    top: -1px;
+    width: 151px;
+    height: 19px;
+    padding: 0px;
+    margin-right: -6px;
+  
+}
+#imgbtnprocurar{
+    width: 14px;
+    height: 14px;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+header figure {
+    display: flex;
+    font-size: larger;
+    position: relative;
+    left:10%
+        
+}
+header figure div{
+    position: relative;
+    bottom: -7px;
+    width: 57px;
+}
+h1{
+    position: relative;
+    bottom:30px;
+}
+
+
+header figure img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+#abaixoHeader{
+    display: flex;
+    justify-content:space-evenly;
+    width: 90%;
+    border-style: solid;
+    border-color: gray;
+    border-left: hidden;
+    border-right: hidden;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left:50%;
+	transform: translate(-50%)
+    
+}
